@@ -1,0 +1,3 @@
+# Use with: pip install -r requirements.txt -c constraints_ros.txt --break-system-packages
+# Keeps NumPy 1.x so pip OpenCV wheels match (avoids cv2 / numpy ABI mismatch with ROS system Python).
+numpy>=1.26,<2
